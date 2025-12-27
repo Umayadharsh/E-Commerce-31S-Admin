@@ -14,7 +14,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 // ✅ Backend URL
-export const backendUrl = import.meta.env.VITE_BACKEND_URL;
+export const backendUrl = "https://e-commerce-31s-backend.onrender.com"
 
 const App = () => {
   // ✅ Load token from localStorage
